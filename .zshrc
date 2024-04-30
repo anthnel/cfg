@@ -19,7 +19,7 @@ export PATH=${fzfplugdir}/bin:${FZF_PATH}:$PATH
 [[ -f ${fzfplugdir}/fzf-zsh-plugin.plugin.zsh ]] && source ${fzfplugdir}/fzf-zsh-plugin.plugin.zsh
 
 # the detailed meaning of the below three variable can be found in `man zshparam`.
-#export HISTFILE=~/.histfile
+export HISTFILE=~/.histfile
 export HISTSIZE=1000000   # the number of items for the internal history list
 export SAVEHIST=1000000   # maximum number of items for the history file
 
