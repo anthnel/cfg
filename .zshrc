@@ -42,3 +42,5 @@ if [[ -d "/commandhistory" ]] ; then
     export HISTFILE=/commandhistory/.zsh_history
     touch $HISTFILE
 fi
+
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

@@ -14,6 +14,9 @@ fi
 # install starship
 curl -sS https://starship.rs/install.sh | sh -s -- -f
 
+# install sdk man
+curl -s "https://get.sdkman.io" | bash
+
 # install fzf
 zshplug="$HOME/.config/zsh_plugins"
 fzfplugdir="$zshplug/fzf-zsh-plugin"
